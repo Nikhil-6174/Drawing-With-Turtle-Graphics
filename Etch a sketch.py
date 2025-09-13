@@ -32,6 +32,9 @@ screen.onkeypress(fun=turn_lt,key='A')
 screen.onkeypress(fun=turn_rt,key='D')
 screen.onkeypress(fun=clear,key='C')
 
+# use capital keys to draw.
+
 screen.title("Welcome to etch a drawing!")
 screen.bgcolor('Black')
 screen.exitonclick()
+
